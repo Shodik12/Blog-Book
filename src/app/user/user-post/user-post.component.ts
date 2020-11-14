@@ -105,7 +105,7 @@ export class UserPostComponent implements OnInit {
   }
 
   getPublicPosts() {
-    this.isLoading$.next(true);
+  
 
     this.isAll = false;
     this.isPublic = true;
