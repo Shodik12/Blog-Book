@@ -134,7 +134,7 @@ export class UserPostComponent implements OnInit {
   getPriavtePosts() {
 
     this.isAll = false;
-    this.isPublic = false;
+    this.isPublic = true;
     this.isPrivate = true;
     this.isFetching = true;
 
